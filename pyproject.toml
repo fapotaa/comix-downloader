@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comix-downloader"
+version = "1.0.0"
+description = "Search comix.to, list chapters and download them (images or CBZ) from the command line."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["curl_cffi>=0.7", "playwright>=1.40"]
+keywords = ["manga", "manhwa", "manhua", "downloader", "comix", "cbz", "scraper"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+comix-downloader = "comix:main"
+
+[tool.setuptools]
+py-modules = ["comix"]

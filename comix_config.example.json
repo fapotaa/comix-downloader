@@ -1,0 +1,10 @@
+{
+  "domain": "comix.to",
+  "cookies": {
+    "cf_clearance": "PASTE_YOUR_cf_clearance_HERE",
+    "session": "PASTE_YOUR_session_HERE"
+  },
+  "user_agent": "PASTE the exact User-Agent of the browser the cookies came from",
+  "content_rating": ["safe", "suggestive", "erotica", "pornographic"],
+  "impersonate": "firefox"
+}

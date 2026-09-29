@@ -1,0 +1,16 @@
+# personal config (contains your cookies) - never commit it
+comix_config.json
+
+# downloads
+downloads/
+*.cbz
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
